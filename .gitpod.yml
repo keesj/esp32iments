@@ -1,7 +1,2 @@
 image:
   file: .gitpod.Dockerfile
-
-
-vscode:
-  extensions:
-    - lextudio.restructuredtext@141.0.0:JobzqAU1ylF4bDdKqnrpOg==
