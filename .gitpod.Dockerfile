@@ -7,3 +7,5 @@ RUN sudo apt-get -q update \
 
 USER gitpod
 RUN pip3 install -U esphome && pio update && pio upgrade
+# sorry
+RUN echo export EDITOR=vim >> $HOME/.bashrc
