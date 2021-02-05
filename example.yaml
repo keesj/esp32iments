@@ -1,0 +1,22 @@
+esphome:
+  name: example
+  platform: ESP32
+  board: wemos_d1_mini32
+
+wifi:
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "GPS Hotspot"
+    password: "12345678"
+
+
+uart:
+  rx_pin: 23
+  tx_pin: 18
+  baud_rate: 9600
+
+gps:
+
+gpslogger:
+# Enable logging
+logger:

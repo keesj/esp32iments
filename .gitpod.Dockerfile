@@ -6,4 +6,4 @@ RUN sudo apt-get -q update \
     && sudo rm -rf /var/lib/apt/lists/*
 
 USER gitpod
-RUN pip3 install -U esphome
+RUN pip3 install -U esphome && pio update && pio upgrade
